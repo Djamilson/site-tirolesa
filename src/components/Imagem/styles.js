@@ -5,5 +5,4 @@ export const Content = styled.div`
   flex-direction: row;
   align-content: center;
   justify-content: flex-end;
-  max-width: 640px;
 `

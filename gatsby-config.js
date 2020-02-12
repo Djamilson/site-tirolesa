@@ -11,12 +11,8 @@ module.exports = {
         slug: "/",
       },
       {
-        name: "About",
+        name: "Sobre",
         slug: "/about/",
-      },
-      {
-        name: "Contact",
-        slug: "/contact/",
       },
     ],
   },

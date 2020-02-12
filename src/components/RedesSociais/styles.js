@@ -1,30 +1,26 @@
 import styled from '@emotion/styled'
-
+import { darken } from "polished"
 export const Header = styled.header`
-  background: #108C44;
+
+  background: ${darken(0.08, "#108C44")};
   width: 100%;
-  padding: 1.3em 0;
+  max-height: 120px;
+  padding: 3.3em 0;
 `
 export const Nav = styled.nav`
   width: 100%;
   max-width: ${props => props.theme.sizes.maxWidth};
   margin: 0 auto;
   padding: 0 1.3em;
-  margin-right: 50px;
 
   ul {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
   }
 
   li {
     display: inline-block;
     margin-left: 1em;
-    &:first-of-type {
-      position: relative;
-      margin: 0;
-      flex-basis: 100%;
-    }
   }
 
   a {
